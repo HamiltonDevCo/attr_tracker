@@ -1,4 +1,4 @@
-class CreateAttrTrackerChanges < ActiveRecord::Migration
+class CreateAttrTrackerChanges < ActiveRecord::Migration[4.2]
   def change
     create_table :attr_tracker_changes do |t|
       t.text :before
